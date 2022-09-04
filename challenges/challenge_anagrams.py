@@ -1,5 +1,5 @@
 def is_anagram(first_string, second_string):
-    if len(list1) != len(list2):
+    if len(first_string) != len(second_string):
         return False
 
     list1 = list(first_string.lower())
